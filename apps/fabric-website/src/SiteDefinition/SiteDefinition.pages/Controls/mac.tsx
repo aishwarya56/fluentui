@@ -1,0 +1,87 @@
+import * as React from 'react';
+import { INavPage, LoadingComponent } from '@uifabric/example-app-base/lib/index2';
+
+export const controlsPagesMac: INavPage[] = [
+  {
+    title: 'Controls',
+    url: '#/controls/mac',
+    isHiddenFromMainNav: true,
+    component: () => <LoadingComponent title="Controls" />,
+    getComponent: cb =>
+      require.ensure([], require =>
+        cb(require<any>('../../../pages/Overviews/ControlsPage/ControlsPage').ControlsPage),
+      ),
+  },
+  {
+    title: 'Basic Inputs',
+    isCategory: true,
+    pages: [
+      {
+        title: 'Button',
+        url: '#/controls/mac/button',
+        component: () => <LoadingComponent title="Button" />,
+        getComponent: cb =>
+          require.ensure([], require => cb(require<any>('../../../pages/Controls/ButtonPage/ButtonPage').ButtonPage)),
+      },
+      {
+        title: 'Link',
+        url: '#/controls/mac/link',
+        component: () => <LoadingComponent title="Link" />,
+        getComponent: cb =>
+          require.ensure([], require => cb(require<any>('../../../pages/Controls/LinkPage/LinkPage').LinkPage)),
+      },
+    ],
+  },
+  {
+    title: 'Pickers',
+    isCategory: true,
+    pages: [
+      {
+        title: 'Date Picker',
+        url: '#/controls/mac/date-picker',
+        component: () => <LoadingComponent title="Date Picker" />,
+        getComponent: cb =>
+          require.ensure([], require =>
+            cb(require<any>('../../../pages/Controls/DatePickerPage/DatePickerPage').DatePickerPage),
+          ),
+      },
+    ],
+  },
+  {
+    title: 'Items & Lists',
+    isCategory: true,
+    pages: [
+      {
+        title: 'Persona',
+        url: '#/controls/mac/persona',
+        component: () => <LoadingComponent title="Persona" />,
+        getComponent: cb =>
+          require.ensure([], require =>
+            cb(require<any>('../../../pages/Controls/PersonaPage/PersonaPage').PersonaPage),
+          ),
+      },
+    ],
+  },
+  {
+    title: 'Utilities',
+    isCategory: true,
+    pages: [
+      {
+        title: 'Text',
+        url: '#/controls/mac/text',
+        component: () => <LoadingComponent title="Text" />,
+        getComponent: cb =>
+          require.ensure([], require => cb(require<any>('../../../pages/Controls/TextPage/TextPage').TextPage)),
+      },
+      {
+        title: 'Separator',
+        url: '#/controls/mac/separator',
+        component: () => <LoadingComponent title="Separator" />,
+        getComponent: cb =>
+          require.ensure([], require =>
+            cb(require<any>('../../../pages/Controls/SeparatorPage/SeparatorPage').SeparatorPage),
+          ),
+      },
+    ],
+  },
+];

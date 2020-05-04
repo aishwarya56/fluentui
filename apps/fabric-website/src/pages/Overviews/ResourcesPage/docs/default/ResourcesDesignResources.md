@@ -1,14 +1,17 @@
-### Design Toolkits
+### Design toolkits
 
 These design toolkits provide styles, controls and layout templates that enable you to create beautiful and coherent Microsoft experiences.
 
 <ul class="md-list--flex">
-  <li class="mdut--half">[Microsoft Web Fluent (Sketch)](https://aka.ms/FluentToolkits/Web/Sketch)</li>
-  <li class="mdut--half">[Microsoft Web Fluent (Figma)](https://aka.ms/FluentToolkits/Web/Figma)</li>
-  <li class="mdut--half">[Microsoft iOS Fluent (Sketch)](https://aka.ms/FluentToolkits/iOS/Sketch)</li>
-  <li class="mdut--half">[Microsoft iOS Fluent (Figma)](https://aka.ms/FluentToolkits/iOS/Figma)</li>
-  <li class="mdut--half">[Microsoft Android Fluent (Sketch)](https://aka.ms/FluentToolkits/Android/Sketch)</li>
-  <li class="mdut--half">[Microsoft Android Fluent (Figma)](https://aka.ms/FluentToolkits/Android/Figma)</li>
+  <li class="mdut--half">[Download Web toolkit (Sketch)](https://aka.ms/FluentToolkits/Web/Sketch)</li>
+  <li class="mdut--half">[Download Web toolkit (Figma)](https://aka.ms/FluentToolkits/Web/Figma)</li>
+  <li class="mdut--half">[Download iOS toolkit (Sketch)](https://aka.ms/FluentToolkits/iOS/Sketch)</li>
+  <li class="mdut--half">[Download iOS toolkit (Figma)](https://aka.ms/FluentToolkits/iOS/Figma)</li>
+  <li class="mdut--half">[Download Android toolkit (Sketch)](https://aka.ms/FluentToolkits/Android/Sketch)</li>
+  <li class="mdut--half">[Download Android toolkit (Figma)](https://aka.ms/FluentToolkits/Android/Figma)</li>
+  <li class="mdut--half">[Download Windows toolkit (Figma)](https://aka.ms/figmatoolkit)</li>
+  <li class="mdut--half">[Download Figma plug-in](https://www.figma.com/community/plugin/794492287931420611/Fluent-Theme-Designer)</li>
+
 </ul>
 
 <!-- headings get auto-generated IDs usually, and this page has two "SharePoint Framework" headings -->
@@ -35,11 +38,11 @@ The Add-ins design toolkit provides layouts for interface elements and commonly 
 
 <ul class="md-list--flex">
   <li class="mdut--half">[iOS font](https://developer.apple.com/fonts/)</li>
-  <li class="mdut--half">[Segoe UI and Fluent UI MDL2 external icon font](https://aka.ms/WebFluentFonts)</li>
+  <li class="mdut--half">[Download Segoe UI and MDL2 external font](https://aka.ms/WebFluentFonts)</li>
   <li class="mdut--half">[Android font](https://fonts.google.com/specimen/Roboto)</li>
 </ul>
 
-### Native OS Platforms
+### Native OS platforms
 
 <ul class="md-list--flex">
   <li class="mdut--half">[iOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)</li>
