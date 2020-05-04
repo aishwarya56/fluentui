@@ -14,4 +14,4 @@ Reference these step-by-step processes for contributing to Fluent UI.
 
 ### Fluent UI Android
 
-[Give feedback on a control by filing an issue on GitHub](https://github.com/OfficeDev/ui-fabric-android/issues)
+[Give feedback on a control by filing an issue on GitHub](https://github.com/microsoft/fluentui-android/issues)
